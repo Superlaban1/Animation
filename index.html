@@ -3,12 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>boilerplate</title>
+    <title>Animations</title>
     <link rel="stylesheet" href="assets/css/site.css">
     <link rel="shortcut icon" href="assets/img/gyattmanden.jpg" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js" defer></script>
+    <script src="https://unpkg.com/@rive-app/canvas@2.49.0" defer></script>
     <script src="assets/js/site.js" defer></script>
 </head>
 <body>
-    
+    <main>
+        <h1>Animations</h1>
+        <section aria-labelledby="bear-heading">
+            <h2 id="bear-heading">Bear Lottie Animation</h2>
+            <div id="bear-animation" role="img" aria-label="Animated bear"></div>
+        </section>
+        <section aria-labelledby="rive-heading">
+            <h2 id="rive-heading">Rive Animation</h2>
+            <canvas id="rive-animation" width="512" height="512" aria-label="Animated teddy bear"></canvas>
+        </section>
+    </main>
 </body>
 </html>

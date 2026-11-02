@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background: #f5f0e8;
+    color: #382014;
+    font-family: system-ui, sans-serif;
+}
+
+main {
+    width: min(100% - 2rem, 36rem);
+    text-align: center;
+}
+
+main > h1 {
+    margin: 0 0 1rem;
+}
+
+section + section {
+    margin-top: 1.5rem;
+}
+
+h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1.1rem;
+}
+
+#bear-animation,
+#rive-animation {
+    width: min(100%, 32rem);
+    aspect-ratio: 1;
+    margin-inline: auto;
+}
+
+#rive-animation {
+    display: block;
+}
